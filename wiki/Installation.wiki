@@ -2,8 +2,8 @@
 = Requirements =
 
  * [http://www.python.org Python 2.6]
- * Pybluez
- * PySQLite
+ * [http://code.google.com/p/pybluez/ Pybluez]
+ * [http://oss.itsystementwicklung.de/trac/pysqlite/ PySQLite]
 
 = Installation =
 
