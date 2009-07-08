@@ -1,0 +1,12 @@
+#labels Phase-Deploy
+= Requirements =
+
+ * [http://www.python.org Python 2.6]
+ * Pybluez
+ * PySQLite
+
+= Installation =
+
+ # Unpack to a directory
+ # Run 'python haraldscan -b' to build database
+ # You are ready to go
