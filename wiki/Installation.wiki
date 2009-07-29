@@ -1,5 +1,13 @@
 #labels Phase-Deploy
-= Requirements =
+== Requirements OS X ==
+
+ * [http://www.python.org Python 2.5] *Must be able to `import objc` with python*
+ * [http://lightblue.sourceforge.net/ Lightblue]
+ * [http://oss.itsystementwicklung.de/trac/pysqlite/ PySQLite]
+
+As niether of these are available from Macports. You need to install from source. Please let me know of any successes or failures.
+
+== Requirements Linux ==
 
  * [http://www.python.org Python 2.6]
  * [http://code.google.com/p/pybluez/ Pybluez]
