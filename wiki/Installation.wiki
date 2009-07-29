@@ -16,5 +16,5 @@ As neither of these are available from Macports. You need to install from source
 = Installation =
 
  # Unpack to a directory
- # Run 'python haraldscan -b' to build database
- # You are ready to go
+ # Run `python haraldscan -b` to build database
+ # `python haradscan [Options]` to run Harald Scan
