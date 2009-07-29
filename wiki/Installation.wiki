@@ -5,7 +5,7 @@
  * [http://lightblue.sourceforge.net/ Lightblue]
  * [http://oss.itsystementwicklung.de/trac/pysqlite/ PySQLite]
 
-As niether of these are available from Macports. You need to install from source. Please let me know of any successes or failures.
+As neither of these are available from Macports. You need to install from source. Please let me know of any successes or failures.
 
 == Requirements Linux ==
 
