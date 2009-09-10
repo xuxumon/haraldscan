@@ -10,6 +10,8 @@ Harald Scan should be run from the directory it was unpacked to. Doing otherwise
 
 `-h --help`: Brings up the help menu. Self explanitory.
 
+`-u`: Updates the MACLIST if there are updates and rebuilds the database (requires and Internet connection).
+
 `-w --write file`: Writes the device table to a file each time new devices are found. The filename must be specified in the `file` argument for it to be valid. There is no checks on the file and will overwrite any existing file without prompting. This file will be in the directory you run Harald Scan from.
 
 `-s --service`: Does a service scan on every device that it discovers. It then saves a file with all the info in it, the same way as when a vendor is 'Unknown'. This slows down discovery significantly and is recommended against but some may want this feature for testing.
