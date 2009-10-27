@@ -4,6 +4,7 @@
  * [http://www.python.org Python 2.5] *Must be able to `import objc` with python*
  * [http://lightblue.sourceforge.net/ Lightblue]
  * [http://oss.itsystementwicklung.de/trac/pysqlite/ PySQLite]
+ * X CODE from Apple
 
 As neither of these are available from Macports. You need to install from source. Please let me know of any successes or failures.
 
