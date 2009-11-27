@@ -1,4 +1,21 @@
 #labels Phase-Deploy
+The installation has been much simplified as of 0.4
+
+= Installation =
+
+ # Unpack to a directory
+ # Run `./haraldscan -b` to initialize the database
+ # `./haradscan [Options]` to run Harald Scan
+
+
+
+=*OLD INSTRUCTIONS* < 0.4=
+= Installation =
+
+ # Unpack to a directory
+ # Run `python haraldscan.py -b` to build database
+ # `python haradscan.py [Options]` to run Harald Scan
+
 == Requirements OS X ==
 
  * [http://www.python.org Python 2.5] *Must be able to `import objc` with python*
@@ -13,9 +30,3 @@ As neither of these are available from Macports. You need to install from source
  * [http://www.python.org Python 2.6]
  * [http://code.google.com/p/pybluez/ Pybluez]
  * [http://oss.itsystementwicklung.de/trac/pysqlite/ PySQLite]
-
-= Installation =
-
- # Unpack to a directory
- # Run `python haraldscan.py -b` to build database
- # `python haradscan.py [Options]` to run Harald Scan
