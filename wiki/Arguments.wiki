@@ -5,22 +5,27 @@ This page will provide a detailed overview of the command line arguments
 Harald Scan should be run from the directory it was unpacked to. Doing otherwise may cause issues with Harald Scan not being able to locate files or writing files to odd locations.
 
 = Arguments =
+Usage: haraldscan.py [options]
 
-  `--version`: show program's version number and exit
+Options:
+  `--version`             show program's version number and exit
 
-  `-h, --help`: shows the help message
+  `-h, --help`           show this help message and exit
 
-  `-b, --build`: This option builds the MACLIST database and ignores all other command line arguments. This must be run the first time you run Harald Scan or else there is no database to reference from, A error will tell you as much if you ignore this warning.
-  `-m, --memorydb`: Puts the database in Memory instead of a file on disk.
+  `-b, --build`           Builds MAC Addr database. Ignores all other options
 
-  `--no-service`: Disables service scans on 'Unknown' devices.(Use this to make sure you capture as many devices as possible because service scans take some time and may cause Harald Scan to miss devices)
+  `-f FLUSHNUM, --flush=FLUSHNUM`  When db = size entered. Flush entries to a different database (useful if combined with -m)
 
-  `--no-write`: Disables writing discovered device info to a file.
+  `-m, --memorydb`        Puts the database in Memory instead of a file on disk
 
-  `-s, --service`: Does a service scan on every device that it discovers. It then saves a file with all the info in it, the same way as when a vendor is 'Unknown'. This slows down discovery significantly and is recommended against but some may want this feature for testing.
+  `--no-service`          Disables service scans on 'Unknown' devices
 
-  `-t NUMMINUTES, --time=NUMMINUTES`: Shows number of devices found per time specified in mins (default is 15 mins)
+  `--no-write`            Disables writing discovered device info to a file
 
-  `-u, --update`: Updates the MACLIST if there are updates and rebuilds the database (requires and Internet connection).
+  `-s, --service`         Does a service scan of all devices found and saves a file like a 'Unknown' device would
 
-  `-w FILENAME, --write=FILENAME`: Writes the device table to a file each time new devices are found. The filename must be specified in the `file` argument for it to be valid. There is no checks on the file and will overwrite any existing file without prompting. This file will be in the directory you run Harald Scan from.
+  `-t NMINUTES, --time=NMINUTES` Shows number of devices found per time specified in mins (default is 15 mins)
+
+  `-u, --update`          Updates the MACLIST if there are updates and rebuilds the database (requires and Internet connection)
+
+  -w FILENAME, --write=FILENAME Outputs discovered device info to a file you specify (unspecified: filename is a timestamp)
