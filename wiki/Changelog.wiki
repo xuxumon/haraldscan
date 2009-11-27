@@ -1,0 +1,22 @@
+=0.4=
+
+==Distribution==
+  * Harald Scan is now distributed in either source code or dist
+
+==Added Features==
+  * CLI has added a Number of devices discovered by duration (default is 15 mins)
+  * The duration for above is configurable through `-t TIME`
+  * You can choose either a in memory database or a file database
+  * Option to disable services scans entirely even if MAC is 'Unknown'
+  * Option to disable writing devices to a text file
+  * ability to check Harald Scan version with `--version`
+  * Added `-f` for flushing a large database to another db file. Typical usage would be with a large in memory database.
+
+==Changed Features==
+  * Harald Scan will write to a file every time unless `--no-write` is specified
+  * Changed argument handling to optparse much better now
+  * Uses sqlite3 module instead of pysqlite2 (I didn't realize it was there :S)
+
+==Bug Fixes==
+  * A bunch don't remember though
+ 
