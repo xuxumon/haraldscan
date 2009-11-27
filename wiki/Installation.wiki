@@ -1,15 +1,4 @@
 #labels Phase-Deploy
-The installation has been much simplified as of 0.4
-
-= Installation =
-
- # Unpack to a directory
- # Run `./haraldscan -b` to initialize the database
- # `./haradscan [Options]` to run Harald Scan
-
-
-
-=*OLD INSTRUCTIONS* < 0.4=
 = Installation =
 
  # Unpack to a directory
