@@ -11,8 +11,8 @@
 =0.4=
 
 ==Distribution==
-  * Harald Scan is now distributed in either source code or dist
-
+  * ~~Harald Scan is now distributed in either source code or dist~~
+  * Harald Scan is still distributed by means of source code
 ==Added Features==
   * CLI has added a Number of devices discovered by duration (default is 15 mins)
   * The duration for above is configurable through `-t TIME`
