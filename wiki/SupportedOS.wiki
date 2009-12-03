@@ -1,0 +1,10 @@
+#labels Phase-Design
+= Info =
+
+  * Each OS has a different release archive. You need to download the archive that matches your operating system.
+  * GNU/Linux will always be the most update.
+
+== OS X ==
+
+  *The last working release for OS X was 0.3 it can be downloaded from http://haraldscan.googlecode.com/files/haraldscan_osx-0.3.tar.gz
+  *I am working on getting a newer version for OS X working but I need testers.
