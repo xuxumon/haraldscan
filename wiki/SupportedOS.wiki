@@ -6,5 +6,11 @@
 
 == OS X ==
 
-  * The last working release for OS X was 0.3 it can be downloaded from http://haraldscan.googlecode.com/files/haraldscan_osx-0.3.tar.gz
-  * I am working on getting a newer version for OS X working but I need testers.
+  * The last working release for OS X was 0.41 it can be downloaded from http://haraldscan.googlecode.com/files/haraldscan-osx-0.41.tar.gz
+
+
+==GNU\Linux==
+
+  * Now Released as a binary with no dependencies.
+  * Will work on 32bit and 64bit systems
+http://haraldscan.googlecode.com/files/haraldscan-dist-0.41.tar.gz
