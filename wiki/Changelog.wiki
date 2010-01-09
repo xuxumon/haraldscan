@@ -6,8 +6,8 @@
   * Source code will be labeled as such
 
 ==Interface==
-  *Added a coloured title
-  *Fixed some displaying issues
+  * Added a coloured title
+  * Fixed some displaying issues
 
 ==MACLIST==
   * Updated to 310 Entries.
