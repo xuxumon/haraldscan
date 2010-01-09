@@ -5,7 +5,7 @@ This page will provide a detailed overview of the command line arguments
 Harald Scan should be run from the directory it was unpacked to. Doing otherwise may cause issues with Harald Scan not being able to locate files or writing files to odd locations.
 
 = Arguments =
-Usage: haraldscan.py [options]
+Usage: haraldscan OPTIONS
 
 Options:
   `--version`             show program's version number and exit
