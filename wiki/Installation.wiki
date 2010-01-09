@@ -1,5 +1,15 @@
 #labels Phase-Deploy
-= Installation =
+= Installation for Binary=
+
+ # Unpack to a directory
+ # Run `./haraldscan.py -b` to build database
+ # `./haradscan [Options]` to run Harald Scan
+
+ * For GNU\Linux only
+ * Should be completely independent and require no dependencies
+
+
+= Installation for Source Code=
 
  # Unpack to a directory
  # Run `python haraldscan.py -b` to build database
