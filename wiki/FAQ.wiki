@@ -4,7 +4,7 @@ A. Harald Bluetooth Gormson of Denmark was a king and is the reason bluetooth is
 
 2. Why Python?
 
-A. Simple and easy to do Bluetooth work thanks to Pybluez. It's fast enough to run on my embedded ARM beagleboard, and I like to work with it (Even though I am not a very good Python developer)
+A. Simple and easy to do Bluetooth work thanks to Pybluez.
 
 3. I get `BluetoothError: error accessing bluetooth device` when I try and run Harald Scan.
 
