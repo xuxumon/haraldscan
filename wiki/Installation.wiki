@@ -5,7 +5,7 @@
  # Run `./haraldscan.py -b` to build database
  # `./haradscan [Options]` to run Harald Scan
 
- * For GNU\Linux only
+ * For GNU/Linux only
  * Should be completely independent and require no dependencies
 
 
