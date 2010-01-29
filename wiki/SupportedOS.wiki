@@ -9,7 +9,7 @@
   * The last working release for OS X was 0.41 it can be downloaded from http://haraldscan.googlecode.com/files/haraldscan-osx-0.41.tar.gz
 
 
-==GNU\Linux==
+==GNU/Linux==
 
   * Now Released as a binary with no dependencies.
   * Will work on 32bit and 64bit systems
