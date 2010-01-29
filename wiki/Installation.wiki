@@ -24,7 +24,7 @@
 
 As neither of these are available from Macports. You need to install from source. Please let me know of any successes or failures.
 
-== Requirements Linux ==
+== Requirements GNU/Linux ==
 
  * [http://www.python.org Python 2.6]
  * [http://code.google.com/p/pybluez/ Pybluez]
