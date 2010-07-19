@@ -1,4 +1,16 @@
 #labels Phase-Design,Featured
+=0.42=
+
+==Distribution==
+  * 32 bit and 64 bit binary for Linux
+  * OS X version still source code
+
+==Output==
+  * In XML format for easier parsing
+
+==MACLIST==
+  * Updated to 345 Entries.
+
 =0.41=
 
 ==Distribution==
